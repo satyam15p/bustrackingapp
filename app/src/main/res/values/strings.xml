@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MapDemo</string>
+    <string name="driver">Driver</string>
+    <string name="tracker">Tracker</string>
+    <string name="admin">Admin</string>
+    <string name="add_driver_text">Add the Driver with unique username, password and allocate the Bus.</string>
+    <string name="full_name_of_the_driver">Full name of the Driver</string>
+    <string name="driver_phone_number">Phone Number</string>
+    <string name="driver_phone_number_alternative">Alternative Number(Optional)</string>
+    <string name="driver_address">Address</string>
+    <string name="driver_username">Username</string>
+    <string name="driver_password">Password</string>
+    <string name="driver_age">age</string>
+    <string name="driver_add">Add</string>
+    <string name="driver_update">Update</string>
+    <string name="updateDeleteText">Admin can Update and Delete the Drivers Informations</string>
+    <string name="add_bus_info">Add the Bus Informations</string>
+    <string name="service_number">service number</string>
+    <string name="destination">destination</string>
+    <string name="admin_can_update_delete_the_buse">Admin can Update/Delete the bus</string>
+    <string name="title_activity_driver_map">Map</string>
+    <string name="title_activity_driver_map2">Map</string>
+    <string name="title_activity_bus_location">Map</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

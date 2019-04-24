@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.BusesRegisterFragment"
+    tools:ignore="MissingDefaultResource">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="@color/dimGray"
+                android:text="@string/add_bus_info"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bus_number"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="17dp"
+                    android:textAllCaps="false"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:hint="Unique Id"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/service_number"
+                    android:inputType="text"
+                    android:textSize="17dp"
+                    android:textAllCaps="false"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:hint="@string/service_number"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/destiation"
+                    android:textColor="@color/colorPrimary"
+                    android:inputType="text"
+                    android:textSize="17dp"
+                    android:textAllCaps="false"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:layout_marginTop="10dp"
+                    android:hint="@string/destination"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/add_bus"
+                    android:background="@color/colorPrimaryDark"
+                    android:text="@string/driver_add"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="2dp"
+                        android:background="@color/colorPrimaryDark"
+                        android:textColor="@color/white"
+                        android:id="@+id/viewAllBuses"
+                        android:layout_weight="1"
+                        android:text="View All  "/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
